@@ -1,9 +1,10 @@
 .relatedproducts {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .relatedproducts h1 {
@@ -23,4 +24,6 @@
     margin-top: 50px;
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }

@@ -70,3 +70,11 @@
 .loginsignup-agree input{
     margin-top: -12px;
 }
+@media (max-width: 376px) {
+    .loginsignup-container {
+        width: 100%;
+    }
+    .loginsignup-container button {
+        width: 100%;
+    }
+}

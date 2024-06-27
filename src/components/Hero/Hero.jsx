@@ -6,7 +6,7 @@ function Hero() {
     return (
         <div className='hero'>
             <div className="hero-left">
-                <h2>New Arrivals Only</h2>
+                {/* <h2>New Arrivals Only</h2> */}
                 <div>
                     <div className="hand-hand-icon">
                         <p>new</p>

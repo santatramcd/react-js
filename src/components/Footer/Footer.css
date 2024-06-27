@@ -20,7 +20,8 @@
     list-style: none;
     gap: 50px;
     color: #252525;
-    font-style: 20px;
+    /* font-style: 20px; */
+    flex-wrap: wrap;
 }
 .footer-links li{
     cursor: pointer;

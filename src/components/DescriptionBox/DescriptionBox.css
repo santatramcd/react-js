@@ -1,10 +1,12 @@
-.descriptionbox{
+.descriptionbox {
     margin: 120px 170px;
 }
-.descriptionbox-navigator{
+
+.descriptionbox-navigator {
     display: flex;
 }
-.descriptionbox-nav-box{
+
+.descriptionbox-nav-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,15 +16,23 @@
     height: 70px;
     border: 1px solid #d0d0d0;
 }
-.descriptionbox-nav-box.fades{
+
+.descriptionbox-nav-box.fades {
     background-color: #fbfbfb;
     color: #555;
 }
-.descriptionbox-description{
+
+.descriptionbox-description {
     display: flex;
     flex-direction: column;
     gap: 25px;
     border: 1px solid #d0d0d0;
     padding: 48px;
     padding-bottom: 70px;
+}
+
+@media (max-width: 376px) {
+    .descriptionbox {
+        margin: 0px;
+    }
 }

@@ -1,6 +1,6 @@
 .newsletter {
     width: 65%;
-    height: 40vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,4 +53,22 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
+}
+@media (max-width: 376px) {
+    .newsletter {
+    width: 100%;
+    padding: 15px;
+    }
+    .newsletter div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        gap: 51px;
+        width: 100%;
+        height: 70px;
+        border-radius: 80px;
+        border: 1px solid #e3e3e3;
+        flex-wrap: wrap;
+    }
 }

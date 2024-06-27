@@ -27,6 +27,7 @@
 .nav-menu {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     list-style: none;
     gap: 50px;
     color: #626262;
@@ -84,4 +85,9 @@
     font-size: 14px;
     background-color: red;
     color: white;
+}
+@media (max-width: 376px) {
+    .nav-logo img{
+        width: 70%;
+    }
 }

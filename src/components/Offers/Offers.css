@@ -1,6 +1,6 @@
 .offers{
     width: 65%;
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
     margin: auto;
     padding: 0px 140px;
@@ -46,4 +46,18 @@
 .offers-right img{
     width: 100%;
     height: auto;
+}
+@media (max-width: 376px) {
+.offers {
+    width: 100%;
+    display: flex;
+    margin-left: -9px;
+    /* margin-top: 403px; */
+    /* padding: 0px 140px; */
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+.offers-left{
+    margin-left: -120px !important;
+}
 }

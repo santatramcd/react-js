@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
+    min-height: 90vh;
 }
 .popular h1{
     color: #171717;
@@ -16,8 +16,13 @@
     border-radius: 10px;
     background: #252525;
 }
-.popular-item{
+
+.popular-item {
     margin-top: 50px;
     display: flex;
+    /* background: red; */
     gap: 10px;
+    /* overflow-x: scroll; */
+    flex-wrap: wrap;
+    justify-content: center;
 }
